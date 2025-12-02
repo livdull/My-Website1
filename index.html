@@ -1,35 +1,211 @@
+# index.html
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <div class="mainMenu">
-    <img
-      href="https://ih1.redbubble.net/image.3619047609.5711/raf,360x360,075,t,fafafa:ca443f4786.u1.jpg"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio website home page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="photo.html">Photo</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <img
-      src="https://ih1.redbubble.net/image.3619047609.5711/raf,360x360,075,t,fafafa:ca443f4786.u1.jpg"
-    />
+  <main>
+    <h1>Welcome to My Portfolio</h1>
+    <h2>Your Daily Creative Inspiration</h2>
+    <h3>Video Showcase</h3>
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+  </main>
 
-    <ul>
-      <li><a href="https://www.google.com"> About</a></li>
-      <li><a href="https://www.google.com"> Gallery</a></li>
-      <li><a href="https://www.google.com"> Contact</a></li>
-      <li><a href="https://www.google.com"> Page 2</a></li>
-    </ul>
-  </div>
-  <body>
-    
-    <div
-    
-    <div class="container">
-      <div class="box1"></div>
-      <div class="box2"></div>
-      <div class="box3"></div>
-      <div class="box4"></div>
-      <div class="box5"></div>
-      <div class="container"></div>
+  <footer>
+    <p>&copy; 2025 My Portfolio | <a href="#">Privacy Policy</a> | <a href="#">Site Terms</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+# projects.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Projects page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="photo.html">Photo</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>My Projects</h1>
+    <h2>Featured Work</h2>
+
+    <section class="card">
+      <figure>
+        <img src="https://via.placeholder.com/800" alt="Project image 1">
+        <figcaption>Project One Description</figcaption>
+      </figure>
+      <p><strong>This is a bold description</strong> of project one. Here is <em>italic text</em> and <u>underlined text</u>.</p>
+    </section>
+
+    <section class="card">
+      <figure>
+        <img src="https://via.placeholder.com/800" alt="Project image 2">
+        <figcaption>Project Two Description</figcaption>
+      </figure>
+      <p>Another project paragraph with line break.<br>Here is more text.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio | <a href="#">Privacy Policy</a> | <a href="#">Site Terms</a></p>
+  </footer>
+</body>
+</html>
+
+
+# photo.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Photo gallery page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="photo.html" class="active">Photo</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="photo-gallery">
+    <h1>Photo Gallery</h1>
+    <h2>Scroll to Explore</h2>
+    <h3>Large Format Photography</h3>
+
+    <!-- 15 fullscreen images -->
+    <div class="gallery">
+      <!-- Repeat placeholder images -->
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 1">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 2">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 3">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 4">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 5">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 6">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 7">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 8">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 9">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 10">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 11">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 12">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 13">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 14">
+      <img src="https://via.placeholder.com/1600x900" alt="Gallery image 15">
     </div>
-  </body>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio | <a href="#">Privacy Policy</a> | <a href="#">Site Terms</a></p>
+  </footer>
+</body>
+</html>
+
+
+# contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="photo.html">Photo</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Me</h1>
+    <h2>Let's Connect</h2>
+    <form action="https://formspree.io/f/your-id" method="POST" class="contact-form">
+      <label>Name:<br><input type="text" name="name" required></label><br>
+      <label>Email:<br><input type="email" name="email" required></label><br>
+      <label>Message:<br><textarea name="message" required></textarea></label><br>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <p>Or reach me at <a href="mailto:you@example.com">you@example.com</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio | <a href="#">Privacy Policy</a> | <a href="#">Site Terms</a></p>
+  </footer>
+</body>
 </html>
